@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+</head>
+<body>
+<div class="container">
+    <div class="row my-5">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    My formular with tooltip / popover
+                </div>
+                <div class="card-body">
+                    <label for="text"><strong>Tooltip example:</strong> </label>
+                    <input type="text" id="text" class="form-control" data-placement="right" data-toggle="tooltip" title="
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias, dolor ducimus
+                              eligendi expedita explicabo facere fuga inventore necessitatibus officia omnis
+                             perspiciatis quae repudiandae, sed suscipit tempora unde velit vero?">
+                    <label for="text"><strong> Popover example:</strong></label>
+                    <input type="text" id="text2" class="form-control">
+                    <p style="font-size: 20px;background-color: black;color: white;width: 25px;height: 25px;border-radius: 25px;padding-left: 7px;padding-bottom: 3px;position: absolute;margin-left: 470px;margin-top: -30px" data-placement="right" data-toggle="popover" title="Hello world!" data-content="   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias, dolor ducimus
+                              eligendi expedita explicabo facere fuga inventore necessitatibus officia omnis
+                             perspiciatis quae repudiandae, sed suscipit tempora unde velit vero?">?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="js/jQuery.min.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
